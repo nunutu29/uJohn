@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5, h6 {
 	text-align:center;
 	background-color: #00A4FF;
 	background-image: linear-gradient(200deg, #00A91C, #00A4FF);
-	height: 200px;
+	height: 15em;
 	font-family: uJohn, Arial;
 }
 .logo{
