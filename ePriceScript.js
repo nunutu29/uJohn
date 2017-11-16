@@ -5,12 +5,11 @@ var Emails;
 $(document).ready(
     function(){
         emailjs.init("user_gYkiwCJv1rvW8EUwu7e7A");
+		//Manda 2 mail per sicurezza :D
         Emails = 2;
         Check();
     }    
 );
-
-
 
 function Check(){
     if($("#bf_boxActive").hasClass("sel")){
@@ -22,7 +21,8 @@ function Check(){
         }
     }
     else if($("#bf_boxEnd").hasClass("sel")){
-        console.log("Evento Finito");        
+		//Non fare nulla
+        //console.log("Evento Finito");        
     }
     setTimeout(Check, 2000);
 }
