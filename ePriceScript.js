@@ -1,11 +1,12 @@
-//Controlla ogni due secondi se è inziato l'evento oppure no
+//Controlla ogni due secondi se Ã¨ inziato l'evento oppure no
 
 $(document).ready(
     function(){
+        emailjs.init("user_gYkiwCJv1rvW8EUwu7e7A");
+        
         Check();
     }    
 );
-
 
 function Check(){
     if($("#bf_boxActive").hasClass("sel")){
