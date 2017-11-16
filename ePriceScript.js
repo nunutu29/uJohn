@@ -14,6 +14,7 @@ function Check(){
     }
     else if($("#bf_boxEnd").hasClass("sel")){
         console.log("Evento Finito");
+        emailjs.send("gmail","eprice_johnny");
     }
-    setTimeout(Check, 2000);
+    setTimeout(Check, 10000);
 }
